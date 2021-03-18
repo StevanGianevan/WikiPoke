@@ -10,7 +10,7 @@ const NavbarComponent =() =>{
     }
     return (
         <Navbar bg="dark" variant = "dark" expand="lg" className = "Navbar">
-            <Navbar.Brand href="./Component/ContentComponent.js"><strong>Wiki</strong>-Poke</Navbar.Brand>
+            <Navbar.Brand href="/"><strong>Wiki</strong>-Poke</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className ="ml-auto">
@@ -20,9 +20,6 @@ const NavbarComponent =() =>{
                     <Link style = {navStyle} to ="/" className = "ml-4"> 
                         List Pokemon
                     </Link>
-                    {/* <Link style = {navStyle} to ="/DetailPokemon" className = "ml-4">
-                        Detail Pokemon
-                    </Link> */}
                 </Nav>
             </Navbar.Collapse>
         </Navbar>

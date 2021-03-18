@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react"
-import {} from 'react-bootstrap'
 
 const Home = ({data}) => {
     const [Pokemon , setpokemon] = useState([]);

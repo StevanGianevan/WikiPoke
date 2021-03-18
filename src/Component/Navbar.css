@@ -1,5 +1,6 @@
 .Navbar{
     display: flex;
+    margin: 10px;
     justify-content: space-around;
     align-items: center;
     min-height: 10vh;

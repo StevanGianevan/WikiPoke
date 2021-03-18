@@ -10,10 +10,19 @@ export const decrement = () => {
     };
 };
 
+
 export const Formnames = (names) => {
-    console.log(names);
+    console.log("FORMNAMES",names);
     return{
         type : 'TAMBAHNAMA',
+        payload : names
+    };
+};
+
+export const Releasepoke = (names) => {
+    console.log("RELEASE", names);
+    return{
+        type : 'RELEASEPOKE',
         payload : names
     };
 };
